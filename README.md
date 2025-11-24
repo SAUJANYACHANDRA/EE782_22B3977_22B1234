@@ -56,6 +56,8 @@ The script automatically:
 
 Loads both datasets
 
+Use crop.py to remove the images from input sketches folder which are of no use(not sketch images)
+
 Caches fixed sketches for consistent evaluation
 
 Saves sample outputs to outputs_full/
