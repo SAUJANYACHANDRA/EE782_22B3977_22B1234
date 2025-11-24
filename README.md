@@ -1,4 +1,4 @@
-# EE782_22B3977_22B0978
+# EE782_22B3977_22B1234
 
 Sketch-to-Photo Translation using CycleGAN
 Paper-Style Implementation (128×128, 6-ResNet Blocks, LSGAN)
