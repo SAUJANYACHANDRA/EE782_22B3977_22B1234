@@ -1,0 +1,17 @@
+The dataset produecd "CUHK Face Sketch Database (CUFS)" from kaggle:-
+Link:-https://www.kaggle.com/datasets/arbazkhan971/cuhk-face-sketch-database-cufs
+Code used to import it:-
+mport kagglehub
+
+
+# Your uploaded paper path (for reference)
+pdf_path = "/mnt/data/Translation_from_sketch_to_realistic_photo_based_o.pdf"
+print("Paper local path (uploaded):", pdf_path)
+
+# Download CUFS sketches (user-provided line)
+sketch_path = kagglehub.dataset_download("arbazkhan971/cuhk-face-sketch-database-cufs")
+print("Sketch dataset path:", sketch_path)
+
+# Download Human Faces (Kaggle)
+photo_path = kagglehub.dataset_download("ashwingupta3012/human-faces")
+print("Photo dataset path:", photo_path)
